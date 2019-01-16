@@ -1,7 +1,7 @@
 #!/bin/bash
 set -m
 
-host=${CLAMD_HOST:-192.168.50.72}
+host=${HOST}
 port=${CLAMD_PORT:-3310}
 
 echo "using clamd server: $host:$port"
